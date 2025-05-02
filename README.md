@@ -116,7 +116,7 @@ Edit
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
 }
-Deploy:
+Deploy to GitHub Pages:
 
 bash
 Copy
@@ -169,5 +169,4 @@ I'm Dasun Methmal, a passionate web developer and software engineering student a
 This project is licensed under the MIT License — you’re free to use, modify, and share.
 
 Made with ❤️ by Dasun Methmal
-
 
