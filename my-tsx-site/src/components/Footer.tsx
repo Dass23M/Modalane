@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="footer-top">
-          <div className="footer-logo">Chrome & Co.</div>
+          <div className="footer-logo">Modalane</div>
           <div className="footer-nav">
             <ul>
               <li>
@@ -85,7 +85,7 @@ export function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2023 Chrome & Co. All rights reserved.</p>
+          <p>&copy; 2025 Modalane All rights reserved.</p>
         </div>
       </div>
     </footer>
