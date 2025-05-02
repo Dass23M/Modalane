@@ -2,13 +2,9 @@
 
 Welcome to **ModaLane**, a clean, modern, and fully responsive e-commerce website built with **React**, **TypeScript**, and **Tailwind CSS**. This project showcases a seamless shopping experience with stylish UI components and optimized performance using **Vite**.
 
----
-
 ## 🚀 Overview
 
 ModaLane is a demo fashion e-commerce website that highlights core frontend development skills, visual presentation, and performance optimization. It uses **component-based architecture**, **responsive layouts**, and **smooth user interaction** — ideal for fashion startups or as a portfolio piece.
-
----
 
 ## 🎯 Key Features
 
@@ -21,8 +17,6 @@ ModaLane is a demo fashion e-commerce website that highlights core frontend deve
 - 🔗 **Footer** – Includes navigation links and social media integration  
 - 🎨 **Lucide Icons** – Clean, lightweight icon set across components
 
----
-
 ## 🛠️ Tech Stack
 
 - **Frontend**: React, TypeScript, Vite, Tailwind CSS  
@@ -30,8 +24,6 @@ ModaLane is a demo fashion e-commerce website that highlights core frontend deve
 - **Routing**: react-router-dom *(optional)*  
 - **Animations**: Optional GSAP or Framer Motion  
 - **Tooling**: ESLint, Prettier, PostCSS, Vite Dev Server
-
----
 
 ## 📦 Installation
 
@@ -42,21 +34,22 @@ git clone https://github.com/your-username/modalane-ecommerce.git
 cd modalane-ecommerce
 npm install
 npm run dev
+```
+
 👉 Visit http://localhost:5173 to view the app.
 
-🎨 Tailwind CSS Setup (Optional if not preconfigured)
+## 🎨 Tailwind CSS Setup (Optional if not preconfigured)
+
 Install Tailwind and dependencies:
 
-bash
-Copy
-Edit
+```bash
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+```
+
 Update tailwind.config.js:
 
-js
-Copy
-Edit
+```js
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{ts,tsx}"],
@@ -65,18 +58,19 @@ export default {
   },
   plugins: [],
 };
+```
+
 Add Tailwind to src/styles.css:
 
-css
-Copy
-Edit
+```css
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-📁 Project Structure
-pgsql
-Copy
-Edit
+```
+
+## 📁 Project Structure
+
+```
 modalane-ecommerce/
 ├── public/
 │   ├── index.html
@@ -99,74 +93,69 @@ modalane-ecommerce/
 ├── postcss.config.js
 ├── vite.config.ts
 └── README.md
-🚢 Deployment (GitHub Pages)
+```
+
+## 🚢 Deployment (GitHub Pages)
+
 Install deployment package:
 
-bash
-Copy
-Edit
+```bash
 npm install gh-pages --save-dev
+```
+
 Update package.json:
 
-json
-Copy
-Edit
+```json
 "homepage": "https://your-username.github.io/modalane-ecommerce",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
 }
+```
+
 Deploy to GitHub Pages:
 
-bash
-Copy
-Edit
+```bash
 npm run build
 npm run deploy
+```
+
 ⚠️ Tip: If using react-router-dom, replace BrowserRouter with HashRouter to avoid 404 errors on GitHub Pages.
 
-🤝 Contributing
+## 🤝 Contributing
+
 Contributions are welcome! Here's how to help:
 
-Fork this repository
-
-Create your feature branch
-
-bash
-Copy
-Edit
+1. Fork this repository
+2. Create your feature branch
+```bash
 git checkout -b feature/your-feature
-Commit your changes
-
-bash
-Copy
-Edit
+```
+3. Commit your changes
+```bash
 git commit -m "Add your feature"
-Push to your branch
-
-bash
-Copy
-Edit
+```
+4. Push to your branch
+```bash
 git push origin feature/your-feature
-Open a pull request
+```
+5. Open a pull request
 
 Please follow consistent code style and leave clear comments.
 
-👨‍💻 About Me
+## 👨‍💻 About Me
+
 I'm Dasun Methmal, a passionate web developer and software engineering student at Cardiff Metropolitan University. I specialize in building modern, responsive web apps with:
 
-⚛️ React.js
-
-🐘 Laravel
-
-🐳 Docker
-
-🌐 RESTful APIs
+- ⚛️ React.js
+- 🐘 Laravel
+- 🐳 Docker
+- 🌐 RESTful APIs
 
 🔗 Connect on GitHub
 
-📄 License
-This project is licensed under the MIT License — you’re free to use, modify, and share.
+## 📄 License
+
+This project is licensed under the MIT License — you're free to use, modify, and share.
 
 Made with ❤️ by Dasun Methmal
-
