@@ -1,20 +1,20 @@
-import React, { useState } from 'react'
-import { SearchIcon } from 'lucide-react'
+import { useState } from "react";
+import { SearchIcon } from "lucide-react";
 export function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="header">
       <div className="container">
         <div className="logo">ModaLane</div>
         <div
-          className={`mobile-menu-button ${isMenuOpen ? 'active' : ''}`}
+          className={`mobile-menu-button ${isMenuOpen ? "active" : ""}`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <span></span>
           <span></span>
           <span></span>
         </div>
-        <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
+        <nav className={`nav ${isMenuOpen ? "open" : ""}`}>
           <ul>
             <li>
               <a href="#" className="active">
@@ -43,5 +43,5 @@ export function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }
